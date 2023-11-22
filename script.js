@@ -1,3 +1,4 @@
+console.log(alert('Olá Seja bem-vindo(a) ao Filme Gran Turismo caso o seu aparelho não reproduza o video. Por favor, checar a sua conexão de internet.'))
 const container = document.querySelector(".container"),
 mainVideo = container.querySelector("video"),
 videoTimeline = container.querySelector(".video-timeline"),
