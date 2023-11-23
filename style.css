@@ -29,7 +29,7 @@ main .descricao a img{
     
   }
   main .descricao a {
-    margin-left:30px;
+    margin-left:80px;
     
   }
   main .descricao .chrome img{
@@ -325,7 +325,7 @@ video::-webkit-media-controls-panel {
         
       }
       main .descricao a {
-        margin-left:30px;
+        margin-left:80px;
         
       }
       main .descricao .chrome img{
@@ -356,4 +356,17 @@ video::-webkit-media-controls-panel {
           width: 200px;
           
       }
+}
+@media (max-width: 689px){
+    .play video{
+      width: 100%;
+    }
+    main{
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .descricao p{
+      background-color: #000000c5;
+      padding: 10px;
+      border-radius: 20px;
+    }
 }
