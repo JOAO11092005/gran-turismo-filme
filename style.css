@@ -254,6 +254,18 @@ h1 a img{
    border-radius: 20px;
    border: none;
 }
+/* // Remove botão de download de vídeos */
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
 @media screen and (max-width: 540px) {
   .wrapper .video-controls{
     padding: 3px 10px 7px;
