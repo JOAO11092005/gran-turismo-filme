@@ -250,7 +250,10 @@ h1 a img{
 .container video{
   width: 100%;
 }
-
+.play iframe{
+   border-radius: 20px;
+   border: none;
+}
 @media screen and (max-width: 540px) {
   .wrapper .video-controls{
     padding: 3px 10px 7px;
